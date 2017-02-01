@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router'
 import App from './App';
-import SignupLayout from './SignupLayout';
-import SigninLayout from './SigninLayout';
+import SignupLayout from './layouts/SignupLayout';
+import SigninLayout from './layouts/SigninLayout';
 import './index.css';
 
 ReactDOM.render((

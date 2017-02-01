@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
-import { SignonForm}  from './SignonForm';
-import './App.css';
+import { AuthForm }  from '../components/AuthForm';
+// import './App.css';
 
 class SigninLayout extends Component {
   render() {
@@ -9,7 +9,7 @@ class SigninLayout extends Component {
       <div>
         <h1>Sign In</h1>
         <p>Sign in to your existing account.</p>
-        <SignonForm/>
+        <AuthForm/>
         <div>
           <p>
             Don't have an account?
