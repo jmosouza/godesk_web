@@ -1,10 +1,20 @@
 import React from 'react'
 
 export const AuthForm = (props) => (
-  <form onSubmit={props.handleSubmit}>
-    <div><input type="text" name="auth[username]" id="auth_username" placeholder="Username"/></div>
-    <div><input type="password" name="auth[password]" id="auth_password" placeholder="Password"/></div>
-    <div><input type="submit"/></div>
+  <form className="form-signin" onSubmit={props.handleSubmit}>
+    <input type="text"
+      name="auth[username]"
+      id="auth_username"
+      className="form-control"
+      placeholder="Username"/>
+    <input type="password"
+      name="auth[password]"
+      id="auth_password"
+      className="form-control"
+      placeholder="Password"/>
+    <input type="submit"
+      value="Go"
+      className="btn btn-lg btn-primary"/>
   </form>
 )
 
