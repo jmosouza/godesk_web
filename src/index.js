@@ -10,9 +10,9 @@ import './signin.css';
 
 ReactDOM.render((
   <Router history={browserHistory}>
-    <Route path="/" component={SigninLayout} />
-    <Route path="/signin" component={SigninLayout} />
+    <Route path="/" component={SignupLayout} />
     <Route path="/signup" component={SignupLayout} />
+    <Route path="/signin" component={SigninLayout} />
   </Router>),
   document.getElementById('root')
 );
